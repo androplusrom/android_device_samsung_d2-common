@@ -277,9 +277,6 @@
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">65</integer>
 
-    <!-- Disable lockscreen rotation by default -->
-    <bool name="config_enableLockScreenRotation">true</bool>
-
     <bool name="config_enableWifiDisplay">true</bool>
 
     <!-- Flag indicating if the speed up audio on mt call code should be executed -->
@@ -292,7 +289,7 @@
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
 
     <!-- Performance profiles -->
-    <!--string name="config_perf_profile_prop">sys.perf.profile</string-->
-    <!--string name="config_perf_profile_default_entry">1</string-->
+    <string name="config_perf_profile_prop">sys.perf.profile</string>
+    <string name="config_perf_profile_default_entry">1</string>
 
 </resources>
